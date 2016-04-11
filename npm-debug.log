@@ -1,0 +1,541 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'canvas' ]
+2 info using npm@2.1.17
+3 info using node@v0.10.35
+4 verbose node symlink /usr/local/bin/node
+5 silly cache add args [ 'canvas', null ]
+6 verbose cache add spec canvas
+7 silly cache add parsed spec { raw: 'canvas',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'canvas',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: '*',
+7 silly cache add   type: 'range' }
+8 verbose addNamed canvas@*
+9 silly addNamed semver.valid null
+10 silly addNamed semver.validRange *
+11 silly addNameRange { name: 'canvas', range: '*', hasData: false }
+12 silly mapToRegistry name canvas
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/canvas
+16 verbose addNameRange registry:https://registry.npmjs.org/canvas not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/canvas
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 00:08:11
+20 verbose request id 654225aefbbff804
+21 verbose etag "BLNRMR0FBR8NN0NPYCTA9KINO"
+22 http request GET https://registry.npmjs.org/canvas
+23 http 304 https://registry.npmjs.org/canvas
+24 silly get cb [ 304,
+24 silly get   { date: 'Sun, 10 Apr 2016 04:08:11 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     etag: '"BLNRMR0FBR8NN0NPYCTA9KINO"',
+24 silly get     age: '0',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-dfw1846-DFW',
+24 silly get     'x-cache': 'MISS',
+24 silly get     'x-cache-hits': '0',
+24 silly get     'x-timer': 'S1460261291.800932,VS0,VE325',
+24 silly get     vary: 'Accept-Encoding' } ]
+25 verbose etag https://registry.npmjs.org/canvas from cache
+26 silly addNameRange number 2 { name: 'canvas', range: '*', hasData: true }
+27 silly addNameRange versions [ 'canvas',
+27 silly addNameRange   [ '0.0.1',
+27 silly addNameRange     '0.0.2',
+27 silly addNameRange     '0.0.3',
+27 silly addNameRange     '0.0.4',
+27 silly addNameRange     '0.0.5',
+27 silly addNameRange     '0.0.6',
+27 silly addNameRange     '0.0.7',
+27 silly addNameRange     '0.0.8',
+27 silly addNameRange     '0.1.0',
+27 silly addNameRange     '0.2.0',
+27 silly addNameRange     '0.2.1',
+27 silly addNameRange     '0.3.0',
+27 silly addNameRange     '0.3.1',
+27 silly addNameRange     '0.3.2',
+27 silly addNameRange     '0.3.3',
+27 silly addNameRange     '0.4.0',
+27 silly addNameRange     '0.4.1',
+27 silly addNameRange     '0.4.2',
+27 silly addNameRange     '0.4.3',
+27 silly addNameRange     '0.5.0',
+27 silly addNameRange     '0.5.1',
+27 silly addNameRange     '0.5.2',
+27 silly addNameRange     '0.5.3',
+27 silly addNameRange     '0.5.4',
+27 silly addNameRange     '0.6.0',
+27 silly addNameRange     '0.7.0',
+27 silly addNameRange     '0.7.1',
+27 silly addNameRange     '0.7.2',
+27 silly addNameRange     '0.7.3',
+27 silly addNameRange     '0.8.0',
+27 silly addNameRange     '0.8.1',
+27 silly addNameRange     '0.8.2',
+27 silly addNameRange     '0.8.3',
+27 silly addNameRange     '0.9.0',
+27 silly addNameRange     '0.10.0',
+27 silly addNameRange     '0.10.1',
+27 silly addNameRange     '0.10.2',
+27 silly addNameRange     '0.10.3',
+27 silly addNameRange     '0.11.0',
+27 silly addNameRange     '0.11.1',
+27 silly addNameRange     '0.11.2',
+27 silly addNameRange     '0.11.3',
+27 silly addNameRange     '0.12.0',
+27 silly addNameRange     '0.12.1',
+27 silly addNameRange     '0.13.0',
+27 silly addNameRange     '0.13.1',
+27 silly addNameRange     '1.0.0',
+27 silly addNameRange     '1.0.1',
+27 silly addNameRange     '1.0.2',
+27 silly addNameRange     '1.0.3',
+27 silly addNameRange     '1.0.4',
+27 silly addNameRange     '1.1.0',
+27 silly addNameRange     '1.1.1',
+27 silly addNameRange     '1.1.2',
+27 silly addNameRange     '1.1.3',
+27 silly addNameRange     '1.1.4',
+27 silly addNameRange     '1.1.5',
+27 silly addNameRange     '1.1.6',
+27 silly addNameRange     '1.2.0',
+27 silly addNameRange     '1.2.1',
+27 silly addNameRange     '1.2.2',
+27 silly addNameRange     '1.2.3',
+27 silly addNameRange     '1.2.4',
+27 silly addNameRange     '1.2.5',
+27 silly addNameRange     '1.2.6',
+27 silly addNameRange     '1.2.7',
+27 silly addNameRange     '1.2.8',
+27 silly addNameRange     '1.2.9',
+27 silly addNameRange     '1.2.10',
+27 silly addNameRange     '1.2.11',
+27 silly addNameRange     '1.3.0',
+27 silly addNameRange     '1.3.1',
+27 silly addNameRange     '1.3.2',
+27 silly addNameRange     '1.3.3',
+27 silly addNameRange     '1.3.4',
+27 silly addNameRange     '1.3.5',
+27 silly addNameRange     '1.3.6',
+27 silly addNameRange     '1.3.7',
+27 silly addNameRange     '1.3.8',
+27 silly addNameRange     '1.3.9',
+27 silly addNameRange     '1.3.10',
+27 silly addNameRange     '1.3.11',
+27 silly addNameRange     '1.3.12' ] ]
+28 verbose addNamed canvas@1.3.12
+29 silly addNamed semver.valid 1.3.12
+30 silly addNamed semver.validRange 1.3.12
+31 silly cache afterAdd canvas@1.3.12
+32 verbose afterAdd /Users/ayushmehra/.npm/canvas/1.3.12/package/package.json not in flight; writing
+33 verbose afterAdd /Users/ayushmehra/.npm/canvas/1.3.12/package/package.json written
+34 silly install resolved [ { name: 'canvas',
+34 silly install resolved     description: 'Canvas graphics API backed by Cairo',
+34 silly install resolved     version: '1.3.12',
+34 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@learnboost.com' },
+34 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+34 silly install resolved     keywords:
+34 silly install resolved      [ 'canvas',
+34 silly install resolved        'graphic',
+34 silly install resolved        'graphics',
+34 silly install resolved        'pixman',
+34 silly install resolved        'cairo',
+34 silly install resolved        'image',
+34 silly install resolved        'images',
+34 silly install resolved        'pdf' ],
+34 silly install resolved     homepage: 'https://github.com/Automattic/node-canvas',
+34 silly install resolved     repository:
+34 silly install resolved      { type: 'git',
+34 silly install resolved        url: 'git://github.com/Automattic/node-canvas.git' },
+34 silly install resolved     scripts:
+34 silly install resolved      { prebenchmark: 'node-gyp build',
+34 silly install resolved        benchmark: 'node benchmarks/run.js',
+34 silly install resolved        pretest: 'node-gyp build',
+34 silly install resolved        test: 'mocha test/*.test.js',
+34 silly install resolved        'pretest-server': 'node-gyp build',
+34 silly install resolved        'test-server': 'node test/server.js',
+34 silly install resolved        install: 'node-gyp rebuild' },
+34 silly install resolved     dependencies: { nan: '^2.1.0' },
+34 silly install resolved     devDependencies:
+34 silly install resolved      { 'body-parser': '^1.13.3',
+34 silly install resolved        express: '^4.13.2',
+34 silly install resolved        jade: '^1.11.0',
+34 silly install resolved        mocha: '*' },
+34 silly install resolved     engines: { node: '>=0.8.0' },
+34 silly install resolved     main: './lib/canvas.js',
+34 silly install resolved     license: 'MIT',
+34 silly install resolved     gypfile: true,
+34 silly install resolved     gitHead: 'a3492e3c3355b13433e1a3ddd5197f8bfa90f26c',
+34 silly install resolved     bugs: { url: 'https://github.com/Automattic/node-canvas/issues' },
+34 silly install resolved     _id: 'canvas@1.3.12',
+34 silly install resolved     _shasum: '0e6d7b78d6c9730cf1129d1138b28d6d52667e93',
+34 silly install resolved     _from: 'canvas@*',
+34 silly install resolved     _npmVersion: '3.6.0',
+34 silly install resolved     _nodeVersion: '5.6.0',
+34 silly install resolved     _npmUser: { name: 'linusu', email: 'linus@folkdatorn.se' },
+34 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+34 silly install resolved     dist:
+34 silly install resolved      { shasum: '0e6d7b78d6c9730cf1129d1138b28d6d52667e93',
+34 silly install resolved        tarball: 'https://registry.npmjs.org/canvas/-/canvas-1.3.12.tgz' },
+34 silly install resolved     _npmOperationalInternal:
+34 silly install resolved      { host: 'packages-9-west.internal.npmjs.com',
+34 silly install resolved        tmp: 'tmp/canvas-1.3.12.tgz_1456821769858_0.6099298796616495' },
+34 silly install resolved     directories: {},
+34 silly install resolved     _resolved: 'https://registry.npmjs.org/canvas/-/canvas-1.3.12.tgz',
+34 silly install resolved     readme: 'ERROR: No README data found!' } ]
+35 info install canvas@1.3.12 into /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver
+36 info installOne canvas@1.3.12
+37 verbose installOne of canvas to /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver not in flight; installing
+38 verbose lock using /Users/ayushmehra/.npm/_locks/canvas-f02b97718e918d3d.lock for /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas
+39 silly install write writing canvas 1.3.12 to /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas
+40 silly cache addNamed cb canvas@1.3.12
+41 verbose unbuild node_modules/canvas
+42 verbose gentlyRm vacuuming /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas
+43 verbose tar unpack /Users/ayushmehra/.npm/canvas/1.3.12/package.tgz
+44 verbose tar unpacking to /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas
+45 verbose gentlyRm vacuuming /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas
+46 silly gunzTarPerm modes [ '755', '644' ]
+47 silly gunzTarPerm extractEntry package.json
+48 silly gunzTarPerm extractEntry .npmignore
+49 silly gunzTarPerm extractEntry index.js
+50 silly gunzTarPerm extractEntry Readme.md
+51 silly gunzTarPerm extractEntry binding.gyp
+52 silly gunzTarPerm extractEntry .travis.yml
+53 silly gunzTarPerm extractEntry lib/bindings.js
+54 silly gunzTarPerm extractEntry lib/canvas.js
+55 silly gunzTarPerm extractEntry lib/context2d.js
+56 silly gunzTarPerm extractEntry lib/image.js
+57 silly gunzTarPerm extractEntry lib/jpegstream.js
+58 silly gunzTarPerm extractEntry lib/pngstream.js
+59 silly gunzTarPerm extractEntry History.md
+60 silly gunzTarPerm extractEntry src/Image.cc
+61 silly gunzTarPerm extractEntry src/Canvas.cc
+62 silly gunzTarPerm extractEntry src/CanvasGradient.cc
+63 silly gunzTarPerm extractEntry src/CanvasGradient.h
+64 silly gunzTarPerm extractEntry src/CanvasPattern.cc
+65 silly gunzTarPerm extractEntry src/CanvasPattern.h
+66 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.cc
+67 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.h
+68 silly gunzTarPerm extractEntry src/FontFace.cc
+69 silly gunzTarPerm extractEntry src/FontFace.h
+70 silly gunzTarPerm extractEntry src/Canvas.h
+71 silly gunzTarPerm extractEntry src/Image.h
+72 silly gunzTarPerm extractEntry src/ImageData.cc
+73 silly gunzTarPerm extractEntry src/ImageData.h
+74 silly gunzTarPerm extractEntry src/JPEGStream.h
+75 silly gunzTarPerm extractEntry src/PNG.h
+76 silly gunzTarPerm extractEntry src/Point.h
+77 silly gunzTarPerm extractEntry src/closure.h
+78 silly gunzTarPerm extractEntry src/color.cc
+79 silly gunzTarPerm extractEntry src/color.h
+80 silly gunzTarPerm extractEntry src/init.cc
+81 silly gunzTarPerm extractEntry util/has_lib.sh
+82 info preinstall canvas@1.3.12
+83 silly prepareForInstallMany adding nan@^2.1.0 from canvas dependencies
+84 silly cache add args [ 'nan@^2.1.0', null ]
+85 verbose cache add spec nan@^2.1.0
+86 silly cache add parsed spec { raw: 'nan@^2.1.0',
+86 silly cache add   scope: null,
+86 silly cache add   name: 'nan',
+86 silly cache add   rawSpec: '^2.1.0',
+86 silly cache add   spec: '>=2.1.0 <3.0.0',
+86 silly cache add   type: 'range' }
+87 verbose addNamed nan@>=2.1.0 <3.0.0
+88 silly addNamed semver.valid null
+89 silly addNamed semver.validRange >=2.1.0 <3.0.0
+90 silly addNameRange { name: 'nan', range: '>=2.1.0 <3.0.0', hasData: false }
+91 silly mapToRegistry name nan
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry uri https://registry.npmjs.org/nan
+95 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+96 verbose request uri https://registry.npmjs.org/nan
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 00:08:12
+99 verbose etag "2UZKQOUIL0TMX4WY7FZ5Q5HJQ"
+100 http request GET https://registry.npmjs.org/nan
+101 http 304 https://registry.npmjs.org/nan
+102 silly get cb [ 304,
+102 silly get   { date: 'Sun, 10 Apr 2016 04:08:12 GMT',
+102 silly get     via: '1.1 varnish',
+102 silly get     'cache-control': 'max-age=300',
+102 silly get     etag: '"2UZKQOUIL0TMX4WY7FZ5Q5HJQ"',
+102 silly get     age: '169',
+102 silly get     connection: 'keep-alive',
+102 silly get     'x-served-by': 'cache-dfw1843-DFW',
+102 silly get     'x-cache': 'HIT',
+102 silly get     'x-cache-hits': '2',
+102 silly get     'x-timer': 'S1460261292.428861,VS0,VE0',
+102 silly get     vary: 'Accept-Encoding' } ]
+103 verbose etag https://registry.npmjs.org/nan from cache
+104 silly addNameRange number 2 { name: 'nan', range: '>=2.1.0 <3.0.0', hasData: true }
+105 silly addNameRange versions [ 'nan',
+105 silly addNameRange   [ '0.3.0-wip',
+105 silly addNameRange     '0.3.0-wip2',
+105 silly addNameRange     '0.3.0',
+105 silly addNameRange     '0.3.1',
+105 silly addNameRange     '0.3.2',
+105 silly addNameRange     '0.4.0',
+105 silly addNameRange     '0.4.1',
+105 silly addNameRange     '0.4.2',
+105 silly addNameRange     '0.4.3',
+105 silly addNameRange     '0.4.4',
+105 silly addNameRange     '0.5.0',
+105 silly addNameRange     '0.5.1',
+105 silly addNameRange     '0.5.2',
+105 silly addNameRange     '0.6.0',
+105 silly addNameRange     '0.7.0',
+105 silly addNameRange     '0.7.1',
+105 silly addNameRange     '0.8.0',
+105 silly addNameRange     '1.0.0',
+105 silly addNameRange     '1.1.0',
+105 silly addNameRange     '1.1.1',
+105 silly addNameRange     '1.1.2',
+105 silly addNameRange     '1.2.0',
+105 silly addNameRange     '1.3.0',
+105 silly addNameRange     '1.4.0',
+105 silly addNameRange     '1.4.1',
+105 silly addNameRange     '1.5.0',
+105 silly addNameRange     '1.4.2',
+105 silly addNameRange     '1.4.3',
+105 silly addNameRange     '1.5.1',
+105 silly addNameRange     '1.5.2',
+105 silly addNameRange     '1.6.0',
+105 silly addNameRange     '1.5.3',
+105 silly addNameRange     '1.6.1',
+105 silly addNameRange     '1.6.2',
+105 silly addNameRange     '1.7.0',
+105 silly addNameRange     '1.8.0',
+105 silly addNameRange     '1.8.1',
+105 silly addNameRange     '1.8.2',
+105 silly addNameRange     '1.8.3',
+105 silly addNameRange     '1.8.4',
+105 silly addNameRange     '1.9.0',
+105 silly addNameRange     '2.0.0',
+105 silly addNameRange     '2.0.1',
+105 silly addNameRange     '2.0.2',
+105 silly addNameRange     '2.0.3',
+105 silly addNameRange     '2.0.4',
+105 silly addNameRange     '2.0.5',
+105 silly addNameRange     '2.0.6',
+105 silly addNameRange     '2.0.7',
+105 silly addNameRange     '2.0.8',
+105 silly addNameRange     '2.0.9',
+105 silly addNameRange     '2.1.0',
+105 silly addNameRange     '2.2.0',
+105 silly addNameRange     '2.2.1' ] ]
+106 verbose addNamed nan@2.2.1
+107 silly addNamed semver.valid 2.2.1
+108 silly addNamed semver.validRange 2.2.1
+109 silly cache afterAdd nan@2.2.1
+110 verbose afterAdd /Users/ayushmehra/.npm/nan/2.2.1/package/package.json not in flight; writing
+111 verbose afterAdd /Users/ayushmehra/.npm/nan/2.2.1/package/package.json written
+112 silly install resolved [ { name: 'nan',
+112 silly install resolved     version: '2.2.1',
+112 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8 -> 4 compatibility',
+112 silly install resolved     main: 'include_dirs.js',
+112 silly install resolved     repository: { type: 'git', url: 'git://github.com/nodejs/nan.git' },
+112 silly install resolved     scripts:
+112 silly install resolved      { test: 'tap --gc test/js/*-test.js',
+112 silly install resolved        'rebuild-tests': 'node-gyp rebuild --msvs_version=2013 --directory test',
+112 silly install resolved        docs: 'doc/.build.sh' },
+112 silly install resolved     contributors:
+112 silly install resolved      [ [Object],
+112 silly install resolved        [Object],
+112 silly install resolved        [Object],
+112 silly install resolved        [Object],
+112 silly install resolved        [Object],
+112 silly install resolved        [Object],
+112 silly install resolved        [Object] ],
+112 silly install resolved     devDependencies:
+112 silly install resolved      { bindings: '~1.2.1',
+112 silly install resolved        commander: '^2.8.1',
+112 silly install resolved        glob: '^5.0.14',
+112 silly install resolved        'node-gyp': '~3.0.1',
+112 silly install resolved        tap: '~0.7.1',
+112 silly install resolved        xtend: '~4.0.0' },
+112 silly install resolved     license: 'MIT',
+112 silly install resolved     bugs: { url: 'https://github.com/nodejs/nan/issues' },
+112 silly install resolved     homepage: 'https://github.com/nodejs/nan#readme',
+112 silly install resolved     _id: 'nan@2.2.1',
+112 silly install resolved     _shasum: 'd68693f6b34bb41d66bc68b3a4f9defc79d7149b',
+112 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-2.2.1.tgz',
+112 silly install resolved     _from: 'nan@>=2.1.0 <3.0.0',
+112 silly install resolved     _npmVersion: '3.3.6',
+112 silly install resolved     _nodeVersion: '5.0.0',
+112 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+112 silly install resolved     dist:
+112 silly install resolved      { shasum: 'd68693f6b34bb41d66bc68b3a4f9defc79d7149b',
+112 silly install resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-2.2.1.tgz' },
+112 silly install resolved     maintainers: [ [Object], [Object] ],
+112 silly install resolved     _npmOperationalInternal:
+112 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+112 silly install resolved        tmp: 'tmp/nan-2.2.1.tgz_1459265439909_0.12396649201400578' },
+112 silly install resolved     directories: {},
+112 silly install resolved     readme: 'ERROR: No README data found!' } ]
+113 info install nan@2.2.1 into /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas
+114 info installOne nan@2.2.1
+115 verbose installOne of nan to /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas not in flight; installing
+116 verbose lock using /Users/ayushmehra/.npm/_locks/nan-47de44cb52907dfe.lock for /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas/node_modules/nan
+117 silly install write writing nan 2.2.1 to /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas/node_modules/nan
+118 silly cache addNamed cb nan@2.2.1
+119 verbose unbuild node_modules/canvas/node_modules/nan
+120 verbose gentlyRm vacuuming /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas/node_modules/nan
+121 verbose tar unpack /Users/ayushmehra/.npm/nan/2.2.1/package.tgz
+122 verbose tar unpacking to /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas/node_modules/nan
+123 verbose gentlyRm vacuuming /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas/node_modules/nan
+124 silly gunzTarPerm modes [ '755', '644' ]
+125 silly gunzTarPerm extractEntry package.json
+126 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+127 silly gunzTarPerm extractEntry include_dirs.js
+128 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+129 silly gunzTarPerm extractEntry nan_converters.h
+130 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 420 ]
+131 silly gunzTarPerm extractEntry LICENSE.md
+132 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+133 silly gunzTarPerm extractEntry .dntrc
+134 silly gunzTarPerm modified mode [ '.dntrc', 436, 420 ]
+135 silly gunzTarPerm extractEntry appveyor.yml
+136 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 420 ]
+137 silly gunzTarPerm extractEntry doc/new.md
+138 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 420 ]
+139 silly gunzTarPerm extractEntry doc/.build.sh
+140 silly gunzTarPerm modified mode [ 'doc/.build.sh', 509, 493 ]
+141 silly gunzTarPerm extractEntry doc/buffers.md
+142 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 420 ]
+143 silly gunzTarPerm extractEntry doc/callback.md
+144 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 420 ]
+145 silly gunzTarPerm extractEntry doc/converters.md
+146 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 420 ]
+147 silly gunzTarPerm extractEntry doc/errors.md
+148 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 420 ]
+149 silly gunzTarPerm extractEntry doc/maybe_types.md
+150 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 420 ]
+151 silly gunzTarPerm extractEntry doc/methods.md
+152 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 420 ]
+153 silly gunzTarPerm extractEntry doc/asyncworker.md
+154 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 420 ]
+155 silly gunzTarPerm extractEntry doc/node_misc.md
+156 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 420 ]
+157 silly gunzTarPerm extractEntry doc/object_wrappers.md
+158 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 420 ]
+159 silly gunzTarPerm extractEntry doc/persistent.md
+160 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 420 ]
+161 silly gunzTarPerm extractEntry doc/scopes.md
+162 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 420 ]
+163 silly gunzTarPerm extractEntry doc/script.md
+164 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 420 ]
+165 silly gunzTarPerm extractEntry doc/string_bytes.md
+166 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 420 ]
+167 silly gunzTarPerm extractEntry doc/v8_internals.md
+168 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 420 ]
+169 silly gunzTarPerm extractEntry doc/v8_misc.md
+170 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 420 ]
+171 silly gunzTarPerm extractEntry nan.h
+172 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+173 silly gunzTarPerm extractEntry nan_callbacks.h
+174 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 420 ]
+175 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+176 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 420 ]
+177 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+178 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 420 ]
+179 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+180 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 420 ]
+181 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+182 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 420 ]
+183 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+184 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+185 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+186 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+187 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+188 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 420 ]
+189 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+190 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 420 ]
+191 silly gunzTarPerm extractEntry nan_new.h
+192 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+193 silly gunzTarPerm extractEntry nan_object_wrap.h
+194 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 420 ]
+195 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+196 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 420 ]
+197 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+198 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 420 ]
+199 silly gunzTarPerm extractEntry nan_string_bytes.h
+200 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+201 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+202 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 420 ]
+203 silly gunzTarPerm extractEntry nan_weak.h
+204 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 420 ]
+205 silly gunzTarPerm extractEntry CHANGELOG.md
+206 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+207 silly gunzTarPerm extractEntry tools/package.json
+208 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 420 ]
+209 silly gunzTarPerm extractEntry tools/README.md
+210 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 420 ]
+211 silly gunzTarPerm extractEntry tools/1to2.js
+212 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 493 ]
+213 info preinstall nan@2.2.1
+214 silly install resolved []
+215 verbose about to build /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas/node_modules/nan
+216 info build /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas/node_modules/nan
+217 verbose linkStuff [ false,
+217 verbose linkStuff   false,
+217 verbose linkStuff   false,
+217 verbose linkStuff   '/Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas/node_modules' ]
+218 info linkStuff nan@2.2.1
+219 verbose linkBins nan@2.2.1
+220 verbose linkMans nan@2.2.1
+221 verbose rebuildBundles nan@2.2.1
+222 info install nan@2.2.1
+223 info postinstall nan@2.2.1
+224 verbose unlock done using /Users/ayushmehra/.npm/_locks/nan-47de44cb52907dfe.lock for /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas/node_modules/nan
+225 verbose about to build /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas
+226 info build /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas
+227 verbose linkStuff [ false,
+227 verbose linkStuff   false,
+227 verbose linkStuff   false,
+227 verbose linkStuff   '/Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules' ]
+228 info linkStuff canvas@1.3.12
+229 verbose linkBins canvas@1.3.12
+230 verbose linkMans canvas@1.3.12
+231 verbose rebuildBundles canvas@1.3.12
+232 verbose rebuildBundles [ 'nan' ]
+233 info install canvas@1.3.12
+234 verbose unsafe-perm in lifecycle true
+235 info canvas@1.3.12 Failed to exec install script
+236 verbose unlock done using /Users/ayushmehra/.npm/_locks/canvas-f02b97718e918d3d.lock for /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas
+237 verbose stack Error: canvas@1.3.12 install: `node-gyp rebuild`
+237 verbose stack Exit status 1
+237 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:212:16)
+237 verbose stack     at EventEmitter.emit (events.js:98:17)
+237 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:14:12)
+237 verbose stack     at ChildProcess.emit (events.js:98:17)
+237 verbose stack     at maybeClose (child_process.js:766:16)
+237 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:833:5)
+238 verbose pkgid canvas@1.3.12
+239 verbose cwd /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver
+240 error Darwin 15.0.0
+241 error argv "node" "/usr/local/bin/npm" "install" "canvas"
+242 error node v0.10.35
+243 error npm  v2.1.17
+244 error code ELIFECYCLE
+245 error canvas@1.3.12 install: `node-gyp rebuild`
+245 error Exit status 1
+246 error Failed at the canvas@1.3.12 install script 'node-gyp rebuild'.
+246 error This is most likely a problem with the canvas package,
+246 error not with npm itself.
+246 error Tell the author that this fails on your system:
+246 error     node-gyp rebuild
+246 error You can get their info via:
+246 error     npm owner ls canvas
+246 error There is likely additional logging output above.
+247 verbose exit [ 1, true ]
+248 verbose unbuild node_modules/canvas
+249 info preuninstall canvas@1.3.12
+250 info uninstall canvas@1.3.12
+251 verbose unbuild rmStuff canvas@1.3.12 from /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules
+252 info postuninstall canvas@1.3.12
+253 verbose gentlyRm vacuuming /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas
+254 silly gentlyRm purging /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules/canvas
+255 silly gentlyRm quitting because other entries in /Users/ayushmehra/Desktop/mixmax/giphy-example-link-resolver/node_modules
