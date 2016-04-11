@@ -13,6 +13,10 @@ the integration will add a dynamically generated app preview including the app's
   - price
   - first screenshot
 
+
+![alt text](http://i.imgur.com/cWIUj6P.png "Sample Screenshot")
+
+
 The code is based off of the sample code at http://sdk.mixmax.com/docs/tutorial-giphy-link-preview and calls the iTunes search api https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/
 
 ### Installation
